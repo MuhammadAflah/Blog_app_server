@@ -1,4 +1,4 @@
-import Post from "../models/Post.js";
+import Post from "../models/UserPost.js";
 
 export const fetchFindByIdData =async (id,data)=>{
     const populatedPost=await Post.findById(id,data)
