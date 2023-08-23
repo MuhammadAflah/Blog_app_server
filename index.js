@@ -23,8 +23,9 @@ dotenv.config();
 const app = express();
 const httpServer = createServer(app);
 app.use(cors({
-  origin: 'https://master.d3k9e3icbl75ya.amplifyapp.com'
+  origin: 'https://blog-app-client-omega.vercel.app'
 }));
+
 
 app.use(express.json());
 
